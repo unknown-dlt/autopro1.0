@@ -1,0 +1,100 @@
+<template>
+  <div class="login-page">
+    <div class="login-card">
+      <div class="login-header">
+        <div class="logo-icon">AP</div>
+        <h1>AutoPro</h1>
+        <p>CRM автосервиса — вход</p>
+      </div>
+      <form class="login-form" @submit.prevent="submit">
+        <label class="field">
+          <span>Роль</span>
+          <select v-model="role">
+            <option value="MANAGER">Менеджер</option>
+            <option value="ASSISTANT">Механик</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>ID работника</span>
+          <input v-model="employeeId" required />
+        </label>
+        <label class="field">
+          <span>Пароль</span>
+          <input v-model="password" type="password" required />
+        </label>
+        <label class="field">
+          <span>Captcha</span>
+          <div class="captcha-row">
+            <div class="captcha-question">{{ captchaQuestion }}</div>
+            <input v-model="captchaInput" required />
+          </div>
+        </label>
+        <div v-if="error" class="error">{{ error }}</div>
+        <button type="submit" class="primary-btn">Войти</button>
+      </form>
+    </div>
+  </div>
+</template>
+
+<script>
+import { useAuthStore } from "../store/auth";
+
+export default {
+  name: "LoginPage",
+  data() {
+    return {
+      role: "MANAGER",
+      employeeId: "",
+      password: "",
+      captchaA: 0,
+      captchaB: 0,
+      captchaInput: "",
+      error: "",
+    };
+  },
+  computed: {
+    captchaQuestion() {
+      return `${this.captchaA} + ${this.captchaB} = ?`;
+    },
+  },
+  created() {
+    this.generateCaptcha();
+  },
+  methods: {
+    generateCaptcha() {
+      this.captchaA = Math.floor(Math.random() * 9) + 1;
+      this.captchaB = Math.floor(Math.random() * 9) + 1;
+      this.captchaInput = "";
+    },
+    async submit() {
+      this.error = "";
+      try {
+        const expected = this.captchaA + this.captchaB;
+        if (Number(this.captchaInput) !== expected) {
+          this.error = "Неверный ответ на captcha";
+          this.generateCaptcha();
+          return;
+        }
+        const auth = useAuthStore();
+        await auth.login({
+          role: this.role,
+          employeeId: this.employeeId.trim(),
+          password: this.password,
+          captcha: {
+            a: this.captchaA,
+            b: this.captchaB,
+            answer: Number(this.captchaInput),
+          },
+        });
+        this.$router.push({ name: "dashboard" });
+      } catch (e) {
+        this.error =
+          (e.response && e.response.data && e.response.data.error) ||
+          "Ошибка входа";
+        this.generateCaptcha();
+      }
+    },
+  },
+};
+</script>
+
