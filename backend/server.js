@@ -35,6 +35,44 @@ function nextId(items) {
   return items.length ? Math.max(...items.map((i) => i.id)) + 1 : 1;
 }
 
+function getServiceDurationMinutes(services, serviceId) {
+  const svc = services.find((s) => s.id === serviceId);
+  const raw = svc && typeof svc.duration === "number" ? svc.duration : 0;
+  if (raw > 0) return raw;
+  return 60; // разумное значение по умолчанию, если длительность не задана
+}
+
+function hasMechanicOverlap(data, candidate, ignoreAppointmentId) {
+  const mechanicId = Number(candidate.mechanicId || 0);
+  if (!mechanicId || !candidate.datetime || !candidate.serviceId) return false;
+
+  const start = new Date(candidate.datetime);
+  if (!Number.isFinite(start.getTime())) return false;
+
+  const durationMinutes = getServiceDurationMinutes(data.services, candidate.serviceId);
+  const end = new Date(start.getTime() + durationMinutes * 60 * 1000);
+
+  const isActiveStatus = (status) => {
+    const s = (status || "").toUpperCase();
+    return s !== "CANCELLED" && s !== "COMPLETED";
+  };
+
+  return data.appointments.some((a) => {
+    if (ignoreAppointmentId && a.id === ignoreAppointmentId) return false;
+    if (Number(a.mechanicId || 0) !== mechanicId) return false;
+    if (!isActiveStatus(a.status)) return false;
+    if (!a.datetime || !a.serviceId) return false;
+
+    const aStart = new Date(a.datetime);
+    if (!Number.isFinite(aStart.getTime())) return false;
+    const aDurationMinutes = getServiceDurationMinutes(data.services, a.serviceId);
+    const aEnd = new Date(aStart.getTime() + aDurationMinutes * 60 * 1000);
+
+    // интервалы [start, end) и [aStart, aEnd) пересекаются
+    return start < aEnd && aStart < end;
+  });
+}
+
 function applyPartsWriteOff(data, requiredParts) {
   if (!Array.isArray(requiredParts) || !requiredParts.length) return;
   requiredParts.forEach((rp) => {
@@ -384,6 +422,13 @@ app.post("/api/appointments", (req, res) => {
         }))
       : [],
   };
+
+  if (hasMechanicOverlap(data, appointment)) {
+    return res
+      .status(400)
+      .json({ error: "Механик уже занят в это время для выбранной услуги" });
+  }
+
   data.appointments.push(appointment);
   data.history.push({
     id: nextId(data.history),
@@ -426,6 +471,12 @@ app.put("/api/appointments/:id", (req, res) => {
       quantity: Number(rp.quantity) || 0,
     }));
   }
+  if (hasMechanicOverlap(data, next, id)) {
+    return res
+      .status(400)
+      .json({ error: "Механик уже занят в это время для выбранной услуги" });
+  }
+
   data.appointments[idx] = next;
   const prevStatus = (prev.status || "").toUpperCase();
   const nextStatus = (next.status || "").toUpperCase();

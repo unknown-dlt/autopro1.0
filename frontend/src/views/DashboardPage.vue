@@ -141,8 +141,8 @@ export default {
       });
     },
     maxDailyCount() {
-      // фиксированный максимум для графика: 35 работ в день
-      return 35;
+      // фиксированный максимум для графика: 10 работ в день
+      return 10;
     },
     chartPointObjects() {
       if (!this.dailyWork.length) return [];
@@ -168,8 +168,8 @@ export default {
       return `${start} ${line} ${end}`;
     },
     yTicks() {
-      // фиксированная шкала для сервиса: до 35 работ в день
-      return [35, 30, 25, 20, 15, 10, 5, 0];
+      // фиксированная шкала для сервиса: до 10 работ в день
+      return [10, 8, 6, 4, 2, 0];
     },
   },
   async created() {

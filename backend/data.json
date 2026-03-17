@@ -19,21 +19,210 @@
       "name": "Замена передних тормозных колодок",
       "description": "Работа по замене колодок, смазка направляющих",
       "duration": 50,
-      "price": 1800
+      "price": 7600
     },
     {
       "id": 2,
       "name": "Компьютерная диагностика двигателя",
       "description": "Сканирование ошибок, просмотр параметров в реальном времени",
       "duration": 30,
-      "price": 2000
+      "price": 7000
     },
     {
       "id": 3,
       "name": "Диагностика ходовой части",
       "description": "Проверка шаровых опор, стоек, сайлентблоков на подъемнике",
       "duration": 40,
-      "price": 1400
+      "price": 6400
+    },
+    {
+      "id": 4,
+      "name": "Замена масла и масляного фильтра",
+      "description": "Слив старого масла, замена фильтра, залив свежего масла",
+      "duration": 45,
+      "price": 8400
+    },
+    {
+      "id": 5,
+      "name": "Замена воздушного фильтра двигателя",
+      "description": "Снятие кожуха, очистка посадочного места, установка нового фильтра",
+      "duration": 20,
+      "price": 3600
+    },
+    {
+      "id": 6,
+      "name": "Замена свечей зажигания",
+      "description": "Диагностика состояния свечей, замена комплекта",
+      "duration": 40,
+      "price": 7600
+    },
+    {
+      "id": 7,
+      "name": "Регулировка развала-схождения",
+      "description": "Проверка и настройка углов установки колёс на стенде",
+      "duration": 60,
+      "price": 11000
+    },
+    {
+      "id": 8,
+      "name": "Замена задних тормозных колодок",
+      "description": "Замена колодок задней оси, проверка состояния суппортов",
+      "duration": 50,
+      "price": 6800
+    },
+    {
+      "id": 9,
+      "name": "Промывка инжектора",
+      "description": "Очистка топливной системы и форсунок без снятия",
+      "duration": 60,
+      "price": 10400
+    },
+    {
+      "id": 10,
+      "name": "Замена ремня ГРМ",
+      "description": "Замена ремня ГРМ с роликами и проверкой помпы",
+      "duration": 180,
+      "price": 36000
+    },
+    {
+      "id": 11,
+      "name": "Замена сцепления в сборе",
+      "description": "Снятие коробки передач, замена корзины, диска и выжимного",
+      "duration": 240,
+      "price": 52000
+    },
+    {
+      "id": 12,
+      "name": "Замена стойки стабилизатора",
+      "description": "Диагностика люфтов, замена стойки стабилизатора",
+      "duration": 40,
+      "price": 5600
+    },
+    {
+      "id": 13,
+      "name": "Замена амортизаторов передней оси",
+      "description": "Снятие стоек, замена амортизаторов, сборка и установка",
+      "duration": 150,
+      "price": 23000
+    },
+    {
+      "id": 14,
+      "name": "Замена амортизаторов задней оси",
+      "description": "Замена задних амортизаторов с проверкой крепежа",
+      "duration": 120,
+      "price": 18400
+    },
+    {
+      "id": 15,
+      "name": "Замена тормозной жидкости",
+      "description": "Полная замена тормозной жидкости с прокачкой системы",
+      "duration": 60,
+      "price": 8200
+    },
+    {
+      "id": 16,
+      "name": "Заправка кондиционера",
+      "description": "Вакуумирование, проверка герметичности, заправка фреоном",
+      "duration": 60,
+      "price": 9600
+    },
+    {
+      "id": 17,
+      "name": "Замена радиатора охлаждения",
+      "description": "Слив охлаждающей жидкости, демонтаж и монтаж радиатора",
+      "duration": 150,
+      "price": 27000
+    },
+    {
+      "id": 18,
+      "name": "Замена помпы системы охлаждения",
+      "description": "Замена водяного насоса с проверкой ремня/цепи привода",
+      "duration": 150,
+      "price": 27600
+    },
+    {
+      "id": 19,
+      "name": "Замена подушек двигателя",
+      "description": "Диагностика и замена опор силового агрегата",
+      "duration": 120,
+      "price": 21600
+    },
+    {
+      "id": 20,
+      "name": "Шиномонтаж и балансировка комплекта",
+      "description": "Снятие/установка колёс, монтаж шин и балансировка",
+      "duration": 90,
+      "price": 10400
+    },
+    {
+      "id": 21,
+      "name": "Сход-развал после замены подвески",
+      "description": "Контроль и корректировка углов после ремонта подвески",
+      "duration": 70,
+      "price": 11600
+    },
+    {
+      "id": 22,
+      "name": "Диагностика электрики",
+      "description": "Проверка основных электрических цепей и блоков",
+      "duration": 60,
+      "price": 8600
+    },
+    {
+      "id": 23,
+      "name": "Замена ламп внешнего освещения",
+      "description": "Замена ламп фар, габаритов, стоп-сигналов",
+      "duration": 20,
+      "price": 2400
+    },
+    {
+      "id": 24,
+      "name": "Антикоррозийная обработка днища",
+      "description": "Мойка, очистка и нанесение антикоррозийного покрытия",
+      "duration": 180,
+      "price": 31000
+    },
+    {
+      "id": 25,
+      "name": "Комплексная диагностика перед покупкой",
+      "description": "Диагностика двигателя, ходовой, кузова и электрооборудования",
+      "duration": 120,
+      "price": 16400
+    },
+    {
+      "id": 26,
+      "name": "Регулировка ручного тормоза",
+      "description": "Проверка и подтяжка привода стояночного тормоза",
+      "duration": 30,
+      "price": 4600
+    },
+    {
+      "id": 27,
+      "name": "Замена топливного фильтра",
+      "description": "Снятие и замена топливного фильтра, проверка герметичности",
+      "duration": 40,
+      "price": 7200
+    },
+    {
+      "id": 28,
+      "name": "Замена цепи ГРМ",
+      "description": "Замена цепи ГРМ с башмаками и натяжителем",
+      "duration": 240,
+      "price": 52000
+    },
+    {
+      "id": 29,
+      "name": "Чистка дроссельной заслонки",
+      "description": "Демонтаж и очистка дроссельного узла",
+      "duration": 45,
+      "price": 7800
+    },
+    {
+      "id": 30,
+      "name": "Замена рулевых тяг и наконечников",
+      "description": "Замена элементов рулевого управления с последующей регулировкой",
+      "duration": 120,
+      "price": 23000
     }
   ],
   "parts": [
@@ -57,6 +246,216 @@
       "name": "Фильтр салона угольный (Bosch)",
       "price": 650,
       "quantity": 8
+    },
+    {
+      "id": 4,
+      "article": "OIL-5W30-FULL-SYN",
+      "name": "Масло моторное 5W-30 синтетика (4л)",
+      "price": 3200,
+      "quantity": 12
+    },
+    {
+      "id": 5,
+      "article": "OIL-ATF-RED",
+      "name": "Трансмиссионная жидкость ATF (4л)",
+      "price": 2800,
+      "quantity": 6
+    },
+    {
+      "id": 6,
+      "article": "BRAKE-PADS-FRONT-01",
+      "name": "Колодки тормозные передние (комплект)",
+      "price": 2300,
+      "quantity": 15
+    },
+    {
+      "id": 7,
+      "article": "BRAKE-PADS-REAR-02",
+      "name": "Колодки тормозные задние (комплект)",
+      "price": 2100,
+      "quantity": 12
+    },
+    {
+      "id": 8,
+      "article": "DISC-BRAKE-FRONT",
+      "name": "Тормозной диск передний (шт.)",
+      "price": 3100,
+      "quantity": 10
+    },
+    {
+      "id": 9,
+      "article": "DISC-BRAKE-REAR",
+      "name": "Тормозной диск задний (шт.)",
+      "price": 2900,
+      "quantity": 8
+    },
+    {
+      "id": 10,
+      "article": "SPARK-PLUG-SET",
+      "name": "Свечи зажигания (комплект 4 шт.)",
+      "price": 1600,
+      "quantity": 20
+    },
+    {
+      "id": 11,
+      "article": "FILTER-OIL-01",
+      "name": "Фильтр масляный",
+      "price": 450,
+      "quantity": 25
+    },
+    {
+      "id": 12,
+      "article": "FILTER-AIR-01",
+      "name": "Фильтр воздушный",
+      "price": 700,
+      "quantity": 18
+    },
+    {
+      "id": 13,
+      "article": "FILTER-FUEL-01",
+      "name": "Фильтр топливный тонкой очистки",
+      "price": 950,
+      "quantity": 14
+    },
+    {
+      "id": 14,
+      "article": "BELT-TIMING-KIT",
+      "name": "Комплект ремня ГРМ с роликами",
+      "price": 8200,
+      "quantity": 5
+    },
+    {
+      "id": 15,
+      "article": "CHAIN-TIMING-KIT",
+      "name": "Комплект цепи ГРМ",
+      "price": 14500,
+      "quantity": 3
+    },
+    {
+      "id": 16,
+      "article": "CLUTCH-KIT-01",
+      "name": "Комплект сцепления (корзина + диск + выжимной)",
+      "price": 13200,
+      "quantity": 4
+    },
+    {
+      "id": 17,
+      "article": "SHOCK-FRONT-PAIR",
+      "name": "Амортизаторы передние (пара)",
+      "price": 9800,
+      "quantity": 6
+    },
+    {
+      "id": 18,
+      "article": "SHOCK-REAR-PAIR",
+      "name": "Амортизаторы задние (пара)",
+      "price": 8600,
+      "quantity": 6
+    },
+    {
+      "id": 19,
+      "article": "STABILIZER-LINK-FRONT",
+      "name": "Стойка стабилизатора передняя",
+      "price": 1400,
+      "quantity": 16
+    },
+    {
+      "id": 20,
+      "article": "STABILIZER-LINK-REAR",
+      "name": "Стойка стабилизатора задняя",
+      "price": 1300,
+      "quantity": 10
+    },
+    {
+      "id": 21,
+      "article": "ENGINE-MOUNT-FRONT",
+      "name": "Подушка двигателя передняя",
+      "price": 4200,
+      "quantity": 5
+    },
+    {
+      "id": 22,
+      "article": "ENGINE-MOUNT-REAR",
+      "name": "Подушка двигателя задняя",
+      "price": 4300,
+      "quantity": 5
+    },
+    {
+      "id": 23,
+      "article": "GEARBOX-MOUNT",
+      "name": "Подушка коробки передач",
+      "price": 3900,
+      "quantity": 4
+    },
+    {
+      "id": 24,
+      "article": "RADIATOR-COOLANT",
+      "name": "Радиатор системы охлаждения",
+      "price": 9800,
+      "quantity": 2
+    },
+    {
+      "id": 25,
+      "article": "WATER-PUMP-01",
+      "name": "Помпа системы охлаждения",
+      "price": 5200,
+      "quantity": 5
+    },
+    {
+      "id": 26,
+      "article": "AIRBAG-DRIVER",
+      "name": "Подушка безопасности водителя",
+      "price": 18000,
+      "quantity": 2
+    },
+    {
+      "id": 27,
+      "article": "AIRBAG-PASSENGER",
+      "name": "Подушка безопасности пассажира",
+      "price": 19000,
+      "quantity": 2
+    },
+    {
+      "id": 28,
+      "article": "SENSOR-ABS-FRONT",
+      "name": "Датчик ABS передний",
+      "price": 2700,
+      "quantity": 6
+    },
+    {
+      "id": 29,
+      "article": "SENSOR-OXYGEN",
+      "name": "Датчик кислорода (лямбда-зонд)",
+      "price": 4100,
+      "quantity": 5
+    },
+    {
+      "id": 30,
+      "article": "BATTERY-60AH",
+      "name": "Аккумуляторная батарея 60 А·ч",
+      "price": 7200,
+      "quantity": 7
+    },
+    {
+      "id": 31,
+      "article": "WIPER-FRONT-SET",
+      "name": "Щётки стеклоочистителя передние (комплект)",
+      "price": 1600,
+      "quantity": 15
+    },
+    {
+      "id": 32,
+      "article": "COOLANT-G12-5L",
+      "name": "Охлаждающая жидкость G12+ (5л)",
+      "price": 1900,
+      "quantity": 10
+    },
+    {
+      "id": 33,
+      "article": "TYRE-195-65-R15",
+      "name": "Шина 195/65 R15 летняя",
+      "price": 4200,
+      "quantity": 12
     }
   ],
   "mechanics": [
@@ -66,7 +465,7 @@
       "position": "автомеханик",
       "hireDate": "2020-01-10",
       "active": true,
-      "baseSalary": 60000,
+      "baseSalary": 45000,
       "bonusPerService": 500
     },
     {
@@ -75,7 +474,7 @@
       "position": "диагност",
       "hireDate": "2021-03-15",
       "active": true,
-      "baseSalary": 65000,
+      "baseSalary": 45000,
       "bonusPerService": 600
     },
     {
@@ -84,91 +483,1510 @@
       "position": "слесарь",
       "hireDate": "2018-11-05",
       "active": false,
-      "baseSalary": 58000,
+      "baseSalary": 45000,
       "bonusPerService": 450
+    },
+    {
+      "id": 4,
+      "fullName": "Кузнецов Алексей",
+      "position": "моторист",
+      "hireDate": "2019-06-20",
+      "active": true,
+      "baseSalary": 45000,
+      "bonusPerService": 700
+    },
+    {
+      "id": 5,
+      "fullName": "Сидоров Дмитрий",
+      "position": "специалист по подвеске",
+      "hireDate": "2022-02-14",
+      "active": true,
+      "baseSalary": 45000,
+      "bonusPerService": 550
+    },
+    {
+      "id": 6,
+      "fullName": "Попова Анна",
+      "position": "электрик-диагност",
+      "hireDate": "2023-05-01",
+      "active": true,
+      "baseSalary": 45000,
+      "bonusPerService": 650
     }
   ],
   "appointments": [
     {
+      "id": 1,
+      "datetime": "2026-02-10T08:30:00.000Z",
+      "clientName": "Андреев Кирилл",
+      "phone": "+7 (901) 111-11-11",
+      "carModel": "Toyota Camry",
+      "carYear": "2015",
+      "licensePlate": "А 101 АА 77",
+      "vin": "JTNBF3HK5F1234567",
+      "serviceId": 4,
+      "mechanicId": 4,
+      "status": "COMPLETED",
+      "comment": "Плановое ТО по регламенту",
+      "requiredParts": [
+        { "partId": 4, "quantity": 1 },
+        { "partId": 11, "quantity": 1 }
+      ]
+    },
+    {
       "id": 2,
-      "datetime": "2026-03-13T17:04:00.000Z",
-      "clientName": "grisha",
-      "phone": "+7 (926) 714-40-08",
-      "carModel": "audi",
-      "carYear": "2007",
-      "licensePlate": "A 777 AA 777",
-      "vin": "afgdfgdfgdfgd",
-      "serviceId": 1,
-      "mechanicId": 1,
-      "status": "CREATED",
-      "comment": "kjhggjkhkjghkgjh"
+      "datetime": "2026-02-11T10:00:00.000Z",
+      "clientName": "Борисов Олег",
+      "phone": "+7 (902) 222-22-22",
+      "carModel": "Volkswagen Passat",
+      "carYear": "2013",
+      "licensePlate": "В 222 ВВ 77",
+      "vin": "WVWZZZ3CZDE123456",
+      "serviceId": 7,
+      "mechanicId": 5,
+      "status": "COMPLETED",
+      "comment": "После замены тяг сделал развал-схождение",
+      "requiredParts": []
     },
     {
       "id": 3,
-      "datetime": "2026-03-13T17:04:00.000Z",
-      "clientName": "олег",
-      "phone": "+7 (926) 714-40-08",
-      "carModel": "audi",
-      "carYear": "2007",
-      "licensePlate": "A 777 AA 777",
-      "vin": "gkgkhjkjghgkjh",
-      "serviceId": 1,
-      "mechanicId": 2,
-      "status": "IN_PROGRESS",
-      "comment": "kjhggjkhkjghkgjh",
+      "datetime": "2026-02-12T13:15:00.000Z",
+      "clientName": "Сидорова Мария",
+      "phone": "+7 (903) 333-33-33",
+      "carModel": "Kia Rio",
+      "carYear": "2018",
+      "licensePlate": "С 303 СС 50",
+      "vin": "XWEYH411BK0001234",
+      "serviceId": 6,
+      "mechanicId": 1,
+      "status": "COMPLETED",
+      "comment": "Замена свечей после 30 тыс. км",
       "requiredParts": [
-        {
-          "partId": 1,
-          "quantity": 2
-        },
-        {
-          "partId": 3,
-          "quantity": 5
-        }
-      ],
-      "date": "2026-03-13",
-      "time": "20:04"
+        { "partId": 10, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 4,
+      "datetime": "2026-02-13T09:00:00.000Z",
+      "clientName": "Васильев Игорь",
+      "phone": "+7 (904) 444-44-44",
+      "carModel": "Hyundai Solaris",
+      "carYear": "2017",
+      "licensePlate": "Н 404 НН 77",
+      "vin": "Z94CB41ABHR123456",
+      "serviceId": 1,
+      "mechanicId": 1,
+      "status": "COMPLETED",
+      "comment": "Замена изношенных передних колодок",
+      "requiredParts": [
+        { "partId": 6, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 5,
+      "datetime": "2026-02-14T11:30:00.000Z",
+      "clientName": "Громов Павел",
+      "phone": "+7 (905) 555-55-55",
+      "carModel": "Skoda Octavia",
+      "carYear": "2016",
+      "licensePlate": "О 505 ОО 77",
+      "vin": "TMBJE9NE9G0123456",
+      "serviceId": 15,
+      "mechanicId": 2,
+      "status": "COMPLETED",
+      "comment": "Профилактическая замена тормозной жидкости",
+      "requiredParts": []
+    },
+    {
+      "id": 6,
+      "datetime": "2026-02-15T15:00:00.000Z",
+      "clientName": "Данилова Инна",
+      "phone": "+7 (906) 666-66-66",
+      "carModel": "Nissan Qashqai",
+      "carYear": "2019",
+      "licensePlate": "Д 606 ДД 77",
+      "vin": "SJNFAAJ11U1234567",
+      "serviceId": 9,
+      "mechanicId": 4,
+      "status": "COMPLETED",
+      "comment": "Нестабильный холостой ход, промывка инжектора",
+      "requiredParts": []
+    },
+    {
+      "id": 7,
+      "datetime": "2026-02-16T08:45:00.000Z",
+      "clientName": "Ершов Антон",
+      "phone": "+7 (907) 777-77-77",
+      "carModel": "Renault Duster",
+      "carYear": "2014",
+      "licensePlate": "Е 707 ЕЕ 77",
+      "vin": "VF1HSR20D12345678",
+      "serviceId": 10,
+      "mechanicId": 4,
+      "status": "COMPLETED",
+      "comment": "Плановая замена ремня ГРМ",
+      "requiredParts": [
+        { "partId": 14, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 8,
+      "datetime": "2026-02-17T12:10:00.000Z",
+      "clientName": "Жуков Артём",
+      "phone": "+7 (908) 888-88-88",
+      "carModel": "Lada Vesta",
+      "carYear": "2020",
+      "licensePlate": "Ж 808 ЖЖ 63",
+      "vin": "XTA7L19BLY0123456",
+      "serviceId": 12,
+      "mechanicId": 5,
+      "status": "COMPLETED",
+      "comment": "Стойка стабилизатора с люфтом справа",
+      "requiredParts": [
+        { "partId": 19, "quantity": 2 }
+      ]
+    },
+    {
+      "id": 9,
+      "datetime": "2026-02-18T14:20:00.000Z",
+      "clientName": "Зайцева Ольга",
+      "phone": "+7 (909) 999-99-99",
+      "carModel": "Mazda 3",
+      "carYear": "2012",
+      "licensePlate": "З 909 ЗЗ 77",
+      "vin": "JMZBL12Z201234567",
+      "serviceId": 16,
+      "mechanicId": 6,
+      "status": "COMPLETED",
+      "comment": "Заправка кондиционера перед летом",
+      "requiredParts": []
+    },
+    {
+      "id": 10,
+      "datetime": "2026-02-19T09:40:00.000Z",
+      "clientName": "Ильин Степан",
+      "phone": "+7 (910) 010-10-10",
+      "carModel": "Ford Focus",
+      "carYear": "2011",
+      "licensePlate": "И 010 ИИ 77",
+      "vin": "WF0AXXWPMAB123456",
+      "serviceId": 2,
+      "mechanicId": 2,
+      "status": "COMPLETED",
+      "comment": "Горит Check Engine, выполнена диагностика",
+      "requiredParts": []
+    },
+    {
+      "id": 11,
+      "datetime": "2026-02-20T11:00:00.000Z",
+      "clientName": "Круглова Татьяна",
+      "phone": "+7 (911) 111-00-11",
+      "carModel": "Honda CR-V",
+      "carYear": "2013",
+      "licensePlate": "К 111 КК 47",
+      "vin": "SHSRE6850DU123456",
+      "serviceId": 17,
+      "mechanicId": 4,
+      "status": "COMPLETED",
+      "comment": "Подтекание радиатора, замена",
+      "requiredParts": [
+        { "partId": 24, "quantity": 1 },
+        { "partId": 32, "quantity": 2 }
+      ]
+    },
+    {
+      "id": 12,
+      "datetime": "2026-02-21T13:30:00.000Z",
+      "clientName": "Лебедев Роман",
+      "phone": "+7 (912) 212-12-12",
+      "carModel": "BMW 3 Series",
+      "carYear": "2010",
+      "licensePlate": "Л 212 ЛЛ 77",
+      "vin": "WBA3A91050F123456",
+      "serviceId": 11,
+      "mechanicId": 1,
+      "status": "COMPLETED",
+      "comment": "Замена сцепления, пробег 180 тыс.",
+      "requiredParts": [
+        { "partId": 16, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 13,
+      "datetime": "2026-02-22T08:20:00.000Z",
+      "clientName": "Морозова Ирина",
+      "phone": "+7 (913) 313-13-13",
+      "carModel": "Audi A4",
+      "carYear": "2014",
+      "licensePlate": "М 313 ММ 77",
+      "vin": "WAUZZZ8K1EA123456",
+      "serviceId": 13,
+      "mechanicId": 5,
+      "status": "COMPLETED",
+      "comment": "Износ передних стоек, замена пары",
+      "requiredParts": [
+        { "partId": 17, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 14,
+      "datetime": "2026-02-23T10:50:00.000Z",
+      "clientName": "Никитин Егор",
+      "phone": "+7 (914) 414-14-14",
+      "carModel": "Chevrolet Cruze",
+      "carYear": "2012",
+      "licensePlate": "Н 414 НН 77",
+      "vin": "KL1JF69RJCK123456",
+      "serviceId": 18,
+      "mechanicId": 4,
+      "status": "COMPLETED",
+      "comment": "Шум помпы, замена",
+      "requiredParts": [
+        { "partId": 25, "quantity": 1 },
+        { "partId": 32, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 15,
+      "datetime": "2026-02-24T15:10:00.000Z",
+      "clientName": "Орлова Светлана",
+      "phone": "+7 (915) 515-15-15",
+      "carModel": "Mitsubishi Outlander",
+      "carYear": "2017",
+      "licensePlate": "О 515 ОО 77",
+      "vin": "JMBXLCU5WHZ123456",
+      "serviceId": 19,
+      "mechanicId": 5,
+      "status": "COMPLETED",
+      "comment": "Сильная вибрация, замена опор двигателя",
+      "requiredParts": [
+        { "partId": 21, "quantity": 1 },
+        { "partId": 22, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 16,
+      "datetime": "2026-02-25T09:00:00.000Z",
+      "clientName": "Павлов Денис",
+      "phone": "+7 (916) 616-16-16",
+      "carModel": "Lada Granta",
+      "carYear": "2019",
+      "licensePlate": "П 616 ПП 77",
+      "vin": "XTA219030K0123456",
+      "serviceId": 20,
+      "mechanicId": 2,
+      "status": "COMPLETED",
+      "comment": "Переобувка на лето, балансировка",
+      "requiredParts": [
+        { "partId": 33, "quantity": 4 }
+      ]
+    },
+    {
+      "id": 17,
+      "datetime": "2026-02-26T11:30:00.000Z",
+      "clientName": "Родионова Ксения",
+      "phone": "+7 (917) 717-17-17",
+      "carModel": "Volkswagen Tiguan",
+      "carYear": "2018",
+      "licensePlate": "Р 717 РР 77",
+      "vin": "WVGZZZ5NZJW123456",
+      "serviceId": 22,
+      "mechanicId": 6,
+      "status": "COMPLETED",
+      "comment": "Диагностика электрики, устранили проблему с запуском",
+      "requiredParts": [
+        { "partId": 29, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 18,
+      "datetime": "2026-02-27T14:00:00.000Z",
+      "clientName": "Семенов Артём",
+      "phone": "+7 (918) 818-18-18",
+      "carModel": "Subaru Forester",
+      "carYear": "2011",
+      "licensePlate": "С 818 СС 23",
+      "vin": "JF1SH9KL5BG123456",
+      "serviceId": 25,
+      "mechanicId": 3,
+      "status": "COMPLETED",
+      "comment": "Диагностика перед покупкой, выдали отчёт",
+      "requiredParts": []
+    },
+    {
+      "id": 19,
+      "datetime": "2026-02-28T08:40:00.000Z",
+      "clientName": "Трофимова Алёна",
+      "phone": "+7 (919) 919-19-19",
+      "carModel": "Peugeot 308",
+      "carYear": "2010",
+      "licensePlate": "Т 919 ТТ 77",
+      "vin": "VF34C9HXC9S123456",
+      "serviceId": 21,
+      "mechanicId": 5,
+      "status": "COMPLETED",
+      "comment": "Регулировка после ремонта передней подвески",
+      "requiredParts": []
+    },
+    {
+      "id": 20,
+      "datetime": "2026-03-01T10:10:00.000Z",
+      "clientName": "Ульянов Максим",
+      "phone": "+7 (920) 020-20-20",
+      "carModel": "Opel Astra",
+      "carYear": "2012",
+      "licensePlate": "У 020 УУ 77",
+      "vin": "W0L0AHL355A123456",
+      "serviceId": 5,
+      "mechanicId": 1,
+      "status": "COMPLETED",
+      "comment": "Замена воздушного фильтра и осмотр",
+      "requiredParts": [
+        { "partId": 12, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 21,
+      "datetime": "2026-03-05T11:30:00.000Z",
+      "clientName": "Фадеев Кирилл",
+      "phone": "+7 (921) 121-21-21",
+      "carModel": "Toyota RAV4",
+      "carYear": "2016",
+      "licensePlate": "Ф 121 ФФ 77",
+      "vin": "JTMDFREV60D123456",
+      "serviceId": 26,
+      "mechanicId": 2,
+      "status": "COMPLETED",
+      "comment": "Регулировка ручного тормоза",
+      "requiredParts": []
+    },
+    {
+      "id": 22,
+      "datetime": "2026-03-10T13:00:00.000Z",
+      "clientName": "Харитонов Стас",
+      "phone": "+7 (922) 222-32-22",
+      "carModel": "Lexus RX",
+      "carYear": "2015",
+      "licensePlate": "Х 232 ХХ 77",
+      "vin": "JTJZK1BA2F2123456",
+      "serviceId": 28,
+      "mechanicId": 4,
+      "status": "COMPLETED",
+      "comment": "Замена цепи ГРМ по регламенту",
+      "requiredParts": [
+        { "partId": 15, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 23,
+      "datetime": "2026-03-15T09:20:00.000Z",
+      "clientName": "Цветкова Юлия",
+      "phone": "+7 (923) 323-23-23",
+      "carModel": "Suzuki Vitara",
+      "carYear": "2019",
+      "licensePlate": "Ц 323 ЦЦ 54",
+      "vin": "TSMJYEG1S00612345",
+      "serviceId": 29,
+      "mechanicId": 6,
+      "status": "COMPLETED",
+      "comment": "Периодическая чистка дроссельной заслонки",
+      "requiredParts": []
+    },
+    {
+      "id": 24,
+      "datetime": "2026-03-20T14:30:00.000Z",
+      "clientName": "Чесноков Аркадий",
+      "phone": "+7 (924) 424-24-24",
+      "carModel": "Volkswagen Polo",
+      "carYear": "2015",
+      "licensePlate": "Ч 424 ЧЧ 77",
+      "vin": "XW8ZZZ61ZFG123456",
+      "serviceId": 30,
+      "mechanicId": 5,
+      "status": "COMPLETED",
+      "comment": "Замена рулевых тяг и наконечников",
+      "requiredParts": []
+    },
+    {
+      "id": 25,
+      "datetime": "2026-03-25T09:00:00.000Z",
+      "clientName": "Шестаков Николай",
+      "phone": "+7 (925) 525-25-25",
+      "carModel": "Mercedes C-Class",
+      "carYear": "2014",
+      "licensePlate": "Ш 525 ШШ 77",
+      "vin": "WDD2040481A123456",
+      "serviceId": 24,
+      "mechanicId": 3,
+      "status": "COMPLETED",
+      "comment": "Антикор днища после ремонта кузова",
+      "requiredParts": []
+    },
+    {
+      "id": 26,
+      "datetime": "2026-03-10T08:30:00.000Z",
+      "clientName": "Новиков Артём",
+      "phone": "+7 (931) 131-31-31",
+      "carModel": "Toyota Camry",
+      "carYear": "2018",
+      "licensePlate": "Н 131 НН 77",
+      "vin": "JTNBF3HK5J8123456",
+      "serviceId": 4,
+      "mechanicId": 4,
+      "status": "COMPLETED",
+      "comment": "Замена масла и фильтра, ТО-60",
+      "requiredParts": [
+        { "partId": 4, "quantity": 1 },
+        { "partId": 11, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 27,
+      "datetime": "2026-03-11T11:00:00.000Z",
+      "clientName": "Ковалёва Оксана",
+      "phone": "+7 (932) 232-32-32",
+      "carModel": "Kia Ceed",
+      "carYear": "2017",
+      "licensePlate": "К 232 КК 77",
+      "vin": "U5YFF24428L123456",
+      "serviceId": 7,
+      "mechanicId": 5,
+      "status": "COMPLETED",
+      "comment": "Подтяжка рулевых тяг и сход-развал",
+      "requiredParts": []
+    },
+    {
+      "id": 28,
+      "datetime": "2026-03-12T13:30:00.000Z",
+      "clientName": "Рыбаков Степан",
+      "phone": "+7 (933) 333-43-33",
+      "carModel": "Volkswagen Golf",
+      "carYear": "2014",
+      "licensePlate": "Р 333 РР 77",
+      "vin": "WVWZZZ1KZDW123456",
+      "serviceId": 6,
+      "mechanicId": 1,
+      "status": "COMPLETED",
+      "comment": "Плановая замена свечей",
+      "requiredParts": [
+        { "partId": 10, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 29,
+      "datetime": "2026-03-13T09:45:00.000Z",
+      "clientName": "Аракелян Давид",
+      "phone": "+7 (934) 434-34-34",
+      "carModel": "Hyundai Tucson",
+      "carYear": "2019",
+      "licensePlate": "А 434 АА 77",
+      "vin": "TMAJ3813LLJ123456",
+      "serviceId": 9,
+      "mechanicId": 4,
+      "status": "COMPLETED",
+      "comment": "Промывка инжектора при рывках",
+      "requiredParts": []
+    },
+    {
+      "id": 30,
+      "datetime": "2026-03-16T08:20:00.000Z",
+      "clientName": "Беляев Константин",
+      "phone": "+7 (935) 535-35-35",
+      "carModel": "Renault Sandero",
+      "carYear": "2016",
+      "licensePlate": "Б 535 ББ 77",
+      "vin": "VF1BSR41H55612345",
+      "serviceId": 1,
+      "mechanicId": 1,
+      "status": "COMPLETED",
+      "comment": "Скрип передних тормозов, замена колодок",
+      "requiredParts": [
+        { "partId": 6, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 31,
+      "datetime": "2026-03-17T11:40:00.000Z",
+      "clientName": "Гаврилова Жанна",
+      "phone": "+7 (936) 636-36-36",
+      "carModel": "Mazda 6",
+      "carYear": "2015",
+      "licensePlate": "Г 636 ГГ 77",
+      "vin": "JMZGH19F201234567",
+      "serviceId": 15,
+      "mechanicId": 2,
+      "status": "COMPLETED",
+      "comment": "Замена тормозной жидкости и осмотр",
+      "requiredParts": []
+    },
+    {
+      "id": 32,
+      "datetime": "2026-03-18T14:10:00.000Z",
+      "clientName": "Дроздов Фёдор",
+      "phone": "+7 (937) 737-37-37",
+      "carModel": "Nissan X-Trail",
+      "carYear": "2013",
+      "licensePlate": "Д 737 ДД 77",
+      "vin": "JN1TANT31U0123456",
+      "serviceId": 17,
+      "mechanicId": 4,
+      "status": "COMPLETED",
+      "comment": "Замена радиатора охлаждения",
+      "requiredParts": [
+        { "partId": 24, "quantity": 1 },
+        { "partId": 32, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 33,
+      "datetime": "2026-03-19T09:30:00.000Z",
+      "clientName": "Елисеева Ольга",
+      "phone": "+7 (938) 838-38-38",
+      "carModel": "Kia Sportage",
+      "carYear": "2018",
+      "licensePlate": "Е 838 ЕЕ 77",
+      "vin": "U5YPH812BLK123456",
+      "serviceId": 12,
+      "mechanicId": 5,
+      "status": "COMPLETED",
+      "comment": "Замена передних стоек стабилизатора",
+      "requiredParts": [
+        { "partId": 19, "quantity": 2 }
+      ]
+    },
+    {
+      "id": 34,
+      "datetime": "2026-03-21T11:50:00.000Z",
+      "clientName": "Журавлёв Арсений",
+      "phone": "+7 (939) 939-39-39",
+      "carModel": "BMW X3",
+      "carYear": "2016",
+      "licensePlate": "Ж 939 ЖЖ 77",
+      "vin": "WBAXX31020L123456",
+      "serviceId": 13,
+      "mechanicId": 5,
+      "status": "COMPLETED",
+      "comment": "Износ передних амортизаторов, замена",
+      "requiredParts": [
+        { "partId": 17, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 35,
+      "datetime": "2026-03-22T15:00:00.000Z",
+      "clientName": "Золотухин Мирон",
+      "phone": "+7 (940) 040-40-40",
+      "carModel": "Audi Q5",
+      "carYear": "2017",
+      "licensePlate": "З 404 ЗЗ 77",
+      "vin": "WAUZZZ8R0HA123456",
+      "serviceId": 16,
+      "mechanicId": 6,
+      "status": "COMPLETED",
+      "comment": "Заправка кондиционера и проверка системы",
+      "requiredParts": []
+    },
+    {
+      "id": 36,
+      "datetime": "2026-03-23T08:40:00.000Z",
+      "clientName": "Исаева Маргарита",
+      "phone": "+7 (941) 141-41-41",
+      "carModel": "Ford Kuga",
+      "carYear": "2015",
+      "licensePlate": "И 141 ИИ 77",
+      "vin": "WF0AXXWPMAF123457",
+      "serviceId": 22,
+      "mechanicId": 6,
+      "status": "COMPLETED",
+      "comment": "Диагностика электрики приборной панели",
+      "requiredParts": [
+        { "partId": 28, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 37,
+      "datetime": "2026-03-24T13:30:00.000Z",
+      "clientName": "Крамарев Пётр",
+      "phone": "+7 (942) 242-42-42",
+      "carModel": "Lada Largus",
+      "carYear": "2019",
+      "licensePlate": "К 242 КК 77",
+      "vin": "XTAFL111LK0123456",
+      "serviceId": 5,
+      "mechanicId": 1,
+      "status": "COMPLETED",
+      "comment": "Замена воздушного фильтра и свечей",
+      "requiredParts": [
+        { "partId": 12, "quantity": 1 },
+        { "partId": 10, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 38,
+      "datetime": "2026-03-26T10:00:00.000Z",
+      "clientName": "Лисицын Георгий",
+      "phone": "+7 (943) 343-43-43",
+      "carModel": "Skoda Rapid",
+      "carYear": "2018",
+      "licensePlate": "Л 343 ЛЛ 77",
+      "vin": "TMBAG6NH7J0123456",
+      "serviceId": 20,
+      "mechanicId": 2,
+      "status": "COMPLETED",
+      "comment": "Шиномонтаж и балансировка комплекта",
+      "requiredParts": [
+        { "partId": 33, "quantity": 4 }
+      ]
+    },
+    {
+      "id": 39,
+      "datetime": "2026-03-27T12:20:00.000Z",
+      "clientName": "Мельников Артём",
+      "phone": "+7 (944) 444-54-44",
+      "carModel": "Renault Megane",
+      "carYear": "2012",
+      "licensePlate": "М 454 ММ 77",
+      "vin": "VF1BZ1K0641234567",
+      "serviceId": 27,
+      "mechanicId": 2,
+      "status": "COMPLETED",
+      "comment": "Замена топливного фильтра",
+      "requiredParts": [
+        { "partId": 13, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 40,
+      "datetime": "2026-03-28T16:10:00.000Z",
+      "clientName": "Назарова Полина",
+      "phone": "+7 (945) 545-45-45",
+      "carModel": "Mazda CX-3",
+      "carYear": "2020",
+      "licensePlate": "Н 545 НН 77",
+      "vin": "JMZDK2W7600123456",
+      "serviceId": 29,
+      "mechanicId": 6,
+      "status": "COMPLETED",
+      "comment": "Чистка дроссельной заслонки после ошибок",
+      "requiredParts": []
+    },
+    {
+      "id": 41,
+      "datetime": "2026-03-29T09:00:00.000Z",
+      "clientName": "Орлов Тимур",
+      "phone": "+7 (946) 646-46-46",
+      "carModel": "Volkswagen Jetta",
+      "carYear": "2013",
+      "licensePlate": "О 646 ОО 77",
+      "vin": "3VW2K7AJ7DM123456",
+      "serviceId": 30,
+      "mechanicId": 5,
+      "status": "CREATED",
+      "comment": "Планируемая замена рулевых тяг",
+      "requiredParts": []
+    },
+    {
+      "id": 42,
+      "datetime": "2026-03-30T11:30:00.000Z",
+      "clientName": "Поляков Роман",
+      "phone": "+7 (947) 747-47-47",
+      "carModel": "Toyota Prius",
+      "carYear": "2015",
+      "licensePlate": "П 747 ПП 77",
+      "vin": "JTDKN36UXF0123456",
+      "serviceId": 22,
+      "mechanicId": 6,
+      "status": "CONFIRMED",
+      "comment": "Периодическая диагностика электрики гибрида",
+      "requiredParts": []
+    },
+    {
+      "id": 43,
+      "datetime": "2026-03-31T14:00:00.000Z",
+      "clientName": "Романов Кирилл",
+      "phone": "+7 (948) 848-48-48",
+      "carModel": "Honda Civic",
+      "carYear": "2014",
+      "licensePlate": "Р 848 РР 77",
+      "vin": "SHHFK2740EU123456",
+      "serviceId": 11,
+      "mechanicId": 1,
+      "status": "IN_PROGRESS",
+      "comment": "Замена сцепления, авто в работе",
+      "requiredParts": [
+        { "partId": 16, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 44,
+      "datetime": "2026-03-02T09:15:00.000Z",
+      "clientName": "Сафонов Артём",
+      "phone": "+7 (950) 150-50-50",
+      "carModel": "Volkswagen Passat",
+      "carYear": "2012",
+      "licensePlate": "С 150 СС 77",
+      "vin": "WVWZZZ3CZCE123450",
+      "serviceId": 3,
+      "mechanicId": 5,
+      "status": "CREATED",
+      "comment": "Диагностика ходовой, стук справа",
+      "requiredParts": []
+    },
+    {
+      "id": 45,
+      "datetime": "2026-03-03T11:45:00.000Z",
+      "clientName": "Фролова Дарья",
+      "phone": "+7 (951) 251-51-51",
+      "carModel": "Kia Rio",
+      "carYear": "2020",
+      "licensePlate": "Ф 251 ФФ 77",
+      "vin": "XWEYH411BLK123451",
+      "serviceId": 5,
+      "mechanicId": 1,
+      "status": "CONFIRMED",
+      "comment": "Замена воздушного фильтра и осмотр",
+      "requiredParts": []
+    },
+    {
+      "id": 46,
+      "datetime": "2026-03-04T14:10:00.000Z",
+      "clientName": "Гордеев Виктор",
+      "phone": "+7 (952) 352-52-52",
+      "carModel": "Hyundai Elantra",
+      "carYear": "2015",
+      "licensePlate": "Г 352 ГГ 77",
+      "vin": "KMHDH41DBFU123452",
+      "serviceId": 6,
+      "mechanicId": 4,
+      "status": "CREATED",
+      "comment": "Плановая замена свечей зажигания",
+      "requiredParts": []
+    },
+    {
+      "id": 47,
+      "datetime": "2026-03-06T08:30:00.000Z",
+      "clientName": "Рябинина Алла",
+      "phone": "+7 (953) 453-53-53",
+      "carModel": "Toyota Yaris",
+      "carYear": "2014",
+      "licensePlate": "Р 453 РР 77",
+      "vin": "VNKKL92310A123453",
+      "serviceId": 1,
+      "mechanicId": 1,
+      "status": "CONFIRMED",
+      "comment": "Замена передних тормозных колодок",
+      "requiredParts": []
+    },
+    {
+      "id": 48,
+      "datetime": "2026-03-07T10:50:00.000Z",
+      "clientName": "Петухов Алексей",
+      "phone": "+7 (954) 554-54-54",
+      "carModel": "Renault Duster",
+      "carYear": "2018",
+      "licensePlate": "П 554 ПП 77",
+      "vin": "VF1HSR20H56712345",
+      "serviceId": 9,
+      "mechanicId": 4,
+      "status": "CREATED",
+      "comment": "Промывка инжектора по рекомендации",
+      "requiredParts": []
+    },
+    {
+      "id": 49,
+      "datetime": "2026-03-08T13:20:00.000Z",
+      "clientName": "Якубова Милана",
+      "phone": "+7 (955) 655-55-55",
+      "carModel": "Skoda Octavia",
+      "carYear": "2019",
+      "licensePlate": "Я 655 ЯЯ 77",
+      "vin": "TMBJG9NE3L012345",
+      "serviceId": 7,
+      "mechanicId": 5,
+      "status": "IN_PROGRESS",
+      "comment": "Регулировка развала-схождения",
+      "requiredParts": []
+    },
+    {
+      "id": 50,
+      "datetime": "2026-03-09T16:00:00.000Z",
+      "clientName": "Киселёв Андрей",
+      "phone": "+7 (956) 756-56-56",
+      "carModel": "Nissan Almera",
+      "carYear": "2013",
+      "licensePlate": "К 756 КК 77",
+      "vin": "VSKTBAL11U012346",
+      "serviceId": 15,
+      "mechanicId": 2,
+      "status": "CREATED",
+      "comment": "Плановая замена тормозной жидкости",
+      "requiredParts": []
+    },
+    {
+      "id": 51,
+      "datetime": "2026-03-14T09:30:00.000Z",
+      "clientName": "Мариин Степан",
+      "phone": "+7 (957) 857-57-57",
+      "carModel": "Volkswagen Polo",
+      "carYear": "2016",
+      "licensePlate": "М 857 ММ 77",
+      "vin": "XW8ZZZ61ZGF12345",
+      "serviceId": 5,
+      "mechanicId": 1,
+      "status": "CREATED",
+      "comment": "Замена воздушного фильтра",
+      "requiredParts": []
+    },
+    {
+      "id": 52,
+      "datetime": "2026-03-18T16:30:00.000Z",
+      "clientName": "Сагидов Рамиль",
+      "phone": "+7 (958) 958-58-58",
+      "carModel": "Kia Sportage",
+      "carYear": "2017",
+      "licensePlate": "С 958 СС 77",
+      "vin": "U5YPG81BBHL12345",
+      "serviceId": 20,
+      "mechanicId": 2,
+      "status": "CONFIRMED",
+      "comment": "Шиномонтаж комплекта летних шин",
+      "requiredParts": []
+    },
+    {
+      "id": 53,
+      "datetime": "2026-03-19T11:10:00.000Z",
+      "clientName": "Тарасова Ксения",
+      "phone": "+7 (959) 059-59-59",
+      "carModel": "Honda CR-V",
+      "carYear": "2016",
+      "licensePlate": "Т 059 ТТ 77",
+      "vin": "SHSRE6850GU123456",
+      "serviceId": 22,
+      "mechanicId": 6,
+      "status": "CREATED",
+      "comment": "Диагностика электрики салона",
+      "requiredParts": []
+    },
+    {
+      "id": 54,
+      "datetime": "2026-03-21T08:10:00.000Z",
+      "clientName": "Устинов Павел",
+      "phone": "+7 (960) 160-60-60",
+      "carModel": "BMW 5 Series",
+      "carYear": "2015",
+      "licensePlate": "У 160 УУ 77",
+      "vin": "WBA5A31000D12345",
+      "serviceId": 19,
+      "mechanicId": 4,
+      "status": "CONFIRMED",
+      "comment": "Замена подушек двигателя",
+      "requiredParts": []
+    },
+    {
+      "id": 55,
+      "datetime": "2026-03-22T12:40:00.000Z",
+      "clientName": "Фадеева Светлана",
+      "phone": "+7 (961) 261-61-61",
+      "carModel": "Mazda 3",
+      "carYear": "2013",
+      "licensePlate": "Ф 261 ФФ 77",
+      "vin": "JMZBK14Z20123458",
+      "serviceId": 23,
+      "mechanicId": 6,
+      "status": "CREATED",
+      "comment": "Замена ламп ближнего света",
+      "requiredParts": []
+    },
+    {
+      "id": 56,
+      "datetime": "2026-03-23T15:20:00.000Z",
+      "clientName": "Хромов Денис",
+      "phone": "+7 (962) 362-62-62",
+      "carModel": "Renault Megane",
+      "carYear": "2011",
+      "licensePlate": "Х 362 ХХ 77",
+      "vin": "VF1BZ1K064312345",
+      "serviceId": 27,
+      "mechanicId": 2,
+      "status": "CREATED",
+      "comment": "Замена топливного фильтра",
+      "requiredParts": []
+    },
+    {
+      "id": 57,
+      "datetime": "2026-03-24T09:00:00.000Z",
+      "clientName": "Цой Никита",
+      "phone": "+7 (963) 463-63-63",
+      "carModel": "Subaru Forester",
+      "carYear": "2014",
+      "licensePlate": "Ц 463 ЦЦ 77",
+      "vin": "JF1SH9KL5EG12345",
+      "serviceId": 10,
+      "mechanicId": 4,
+      "status": "CONFIRMED",
+      "comment": "Замена ремня ГРМ",
+      "requiredParts": []
+    },
+    {
+      "id": 58,
+      "datetime": "2026-03-26T13:40:00.000Z",
+      "clientName": "Чурилов Владислав",
+      "phone": "+7 (964) 564-64-64",
+      "carModel": "Toyota RAV4",
+      "carYear": "2019",
+      "licensePlate": "Ч 564 ЧЧ 77",
+      "vin": "JTMDFREV60D56789",
+      "serviceId": 18,
+      "mechanicId": 4,
+      "status": "CREATED",
+      "comment": "Плановая замена помпы системы охлаждения",
+      "requiredParts": []
+    },
+    {
+      "id": 59,
+      "datetime": "2026-03-27T16:30:00.000Z",
+      "clientName": "Шапошников Григорий",
+      "phone": "+7 (965) 665-65-65",
+      "carModel": "Lada Vesta",
+      "carYear": "2021",
+      "licensePlate": "Ш 665 ШШ 77",
+      "vin": "XTA7L19BLM012346",
+      "serviceId": 21,
+      "mechanicId": 5,
+      "status": "IN_PROGRESS",
+      "comment": "Сход-развал после ремонта подвески",
+      "requiredParts": []
+    },
+    {
+      "id": 60,
+      "datetime": "2026-03-28T11:30:00.000Z",
+      "clientName": "Щеглов Илья",
+      "phone": "+7 (966) 766-66-66",
+      "carModel": "Opel Astra",
+      "carYear": "2010",
+      "licensePlate": "Щ 766 ЩЩ 77",
+      "vin": "W0L0AHL355A654321",
+      "serviceId": 6,
+      "mechanicId": 1,
+      "status": "CREATED",
+      "comment": "Замена комплекта свечей",
+      "requiredParts": []
+    },
+    {
+      "id": 61,
+      "datetime": "2026-03-29T12:50:00.000Z",
+      "clientName": "Энгель Виктор",
+      "phone": "+7 (967) 867-67-67",
+      "carModel": "Mercedes E-Class",
+      "carYear": "2016",
+      "licensePlate": "Э 867 ЭЭ 77",
+      "vin": "WDB2120361A654321",
+      "serviceId": 24,
+      "mechanicId": 3,
+      "status": "CONFIRMED",
+      "comment": "Антикоррозийная обработка днища",
+      "requiredParts": []
+    },
+    {
+      "id": 62,
+      "datetime": "2026-03-30T09:40:00.000Z",
+      "clientName": "Юдина Мария",
+      "phone": "+7 (968) 968-68-68",
+      "carModel": "Suzuki Vitara",
+      "carYear": "2020",
+      "licensePlate": "Ю 968 ЮЮ 77",
+      "vin": "TSMJYEG1S00698765",
+      "serviceId": 25,
+      "mechanicId": 3,
+      "status": "CREATED",
+      "comment": "Комплексная диагностика перед продажей",
+      "requiredParts": []
+    },
+    {
+      "id": 63,
+      "datetime": "2026-03-31T10:30:00.000Z",
+      "clientName": "Ярошенко Влад",
+      "phone": "+7 (969) 969-69-69",
+      "carModel": "Volkswagen Tiguan",
+      "carYear": "2021",
+      "licensePlate": "Я 969 ЯЯ 77",
+      "vin": "WVGZZZ5NZMW12345",
+      "serviceId": 7,
+      "mechanicId": 5,
+      "status": "CREATED",
+      "comment": "Плановая проверка геометрии подвески",
+      "requiredParts": []
+    },
+    {
+      "id": 26,
+      "datetime": "2026-03-28T10:00:00.000Z",
+      "clientName": "Щербакова Анастасия",
+      "phone": "+7 (926) 626-26-26",
+      "carModel": "Renault Logan",
+      "carYear": "2013",
+      "licensePlate": "Щ 626 ЩЩ 77",
+      "vin": "X7LASRBA45H123456",
+      "serviceId": 3,
+      "mechanicId": 1,
+      "status": "CREATED",
+      "comment": "Диагностика подвески, стуки спереди",
+      "requiredParts": []
+    },
+    {
+      "id": 27,
+      "datetime": "2026-04-02T11:30:00.000Z",
+      "clientName": "Эрнестов Леонид",
+      "phone": "+7 (927) 727-27-27",
+      "carModel": "Volvo XC60",
+      "carYear": "2018",
+      "licensePlate": "Э 727 ЭЭ 77",
+      "vin": "YV1DZ97C0J2123456",
+      "serviceId": 23,
+      "mechanicId": 6,
+      "status": "CONFIRMED",
+      "comment": "Не горит стоп-сигнал, заменить лампы",
+      "requiredParts": []
+    },
+    {
+      "id": 28,
+      "datetime": "2026-04-05T13:00:00.000Z",
+      "clientName": "Юрьев Алексей",
+      "phone": "+7 (928) 828-28-28",
+      "carModel": "Mazda CX-5",
+      "carYear": "2017",
+      "licensePlate": "Ю 828 ЮЮ 77",
+      "vin": "JMZKEN96900123456",
+      "serviceId": 14,
+      "mechanicId": 5,
+      "status": "IN_PROGRESS",
+      "comment": "Замена задних амортизаторов",
+      "requiredParts": [
+        { "partId": 18, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 29,
+      "datetime": "2026-04-07T09:30:00.000Z",
+      "clientName": "Яковлева Надежда",
+      "phone": "+7 (929) 929-29-29",
+      "carModel": "Skoda Kodiaq",
+      "carYear": "2020",
+      "licensePlate": "Я 929 ЯЯ 77",
+      "vin": "TMBJG9NS3L0123456",
+      "serviceId": 27,
+      "mechanicId": 2,
+      "status": "CREATED",
+      "comment": "Регламентная замена топливного фильтра",
+      "requiredParts": [
+        { "partId": 13, "quantity": 1 }
+      ]
+    },
+    {
+      "id": 30,
+      "datetime": "2026-04-10T15:15:00.000Z",
+      "clientName": "Алексеев Руслан",
+      "phone": "+7 (930) 030-30-30",
+      "carModel": "Toyota Corolla",
+      "carYear": "2016",
+      "licensePlate": "А 330 АА 77",
+      "vin": "JTNBV9EJ40J123456",
+      "serviceId": 8,
+      "mechanicId": 1,
+      "status": "CONFIRMED",
+      "comment": "Скрип задних тормозов, замена колодок",
+      "requiredParts": [
+        { "partId": 7, "quantity": 1 }
+      ]
     }
   ],
   "history": [
     {
       "id": 1,
       "appointmentId": 1,
-      "datetime": "2026-03-11T21:00:00.000Z",
-      "licensePlate": "A123BC77",
-      "serviceId": 3,
-      "mechanicId": 1,
+      "datetime": "2026-02-10T08:30:00.000Z",
+      "licensePlate": "А 101 АА 77",
+      "serviceId": 4,
+      "mechanicId": 4,
       "status": "COMPLETED"
     },
     {
       "id": 2,
-      "appointmentId": 1,
-      "datetime": "2026-03-13T17:04:00.000Z",
-      "licensePlate": "A 777 AA 777",
-      "serviceId": 1,
-      "mechanicId": 2,
-      "status": "IN_PROGRESS"
+      "appointmentId": 2,
+      "datetime": "2026-02-11T10:00:00.000Z",
+      "licensePlate": "В 222 ВВ 77",
+      "serviceId": 7,
+      "mechanicId": 5,
+      "status": "COMPLETED"
     },
     {
       "id": 3,
-      "appointmentId": 2,
-      "datetime": "2026-03-13T17:04:00.000Z",
-      "licensePlate": "A 777 AA 777",
-      "serviceId": 1,
+      "appointmentId": 3,
+      "datetime": "2026-02-12T13:15:00.000Z",
+      "licensePlate": "С 303 СС 50",
+      "serviceId": 6,
       "mechanicId": 1,
-      "status": "CREATED"
+      "status": "COMPLETED"
     },
     {
       "id": 4,
-      "appointmentId": 3,
-      "datetime": "2026-03-13T17:04:00.000Z",
-      "licensePlate": "A 777 AA 777",
+      "appointmentId": 4,
+      "datetime": "2026-02-13T09:00:00.000Z",
+      "licensePlate": "Н 404 НН 77",
       "serviceId": 1,
+      "mechanicId": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 5,
+      "appointmentId": 5,
+      "datetime": "2026-02-14T11:30:00.000Z",
+      "licensePlate": "О 505 ОО 77",
+      "serviceId": 15,
       "mechanicId": 2,
-      "status": "IN_PROGRESS"
+      "status": "COMPLETED"
+    },
+    {
+      "id": 6,
+      "appointmentId": 6,
+      "datetime": "2026-02-15T15:00:00.000Z",
+      "licensePlate": "Д 606 ДД 77",
+      "serviceId": 9,
+      "mechanicId": 4,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 7,
+      "appointmentId": 7,
+      "datetime": "2026-02-16T08:45:00.000Z",
+      "licensePlate": "Е 707 ЕЕ 77",
+      "serviceId": 10,
+      "mechanicId": 4,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 8,
+      "appointmentId": 8,
+      "datetime": "2026-02-17T12:10:00.000Z",
+      "licensePlate": "Ж 808 ЖЖ 63",
+      "serviceId": 12,
+      "mechanicId": 5,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 9,
+      "appointmentId": 9,
+      "datetime": "2026-02-18T14:20:00.000Z",
+      "licensePlate": "З 909 ЗЗ 77",
+      "serviceId": 16,
+      "mechanicId": 6,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 10,
+      "appointmentId": 10,
+      "datetime": "2026-02-19T09:40:00.000Z",
+      "licensePlate": "И 010 ИИ 77",
+      "serviceId": 2,
+      "mechanicId": 2,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 11,
+      "appointmentId": 11,
+      "datetime": "2026-02-20T11:00:00.000Z",
+      "licensePlate": "К 111 КК 47",
+      "serviceId": 17,
+      "mechanicId": 4,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 12,
+      "appointmentId": 12,
+      "datetime": "2026-02-21T13:30:00.000Z",
+      "licensePlate": "Л 212 ЛЛ 77",
+      "serviceId": 11,
+      "mechanicId": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 13,
+      "appointmentId": 13,
+      "datetime": "2026-02-22T08:20:00.000Z",
+      "licensePlate": "М 313 ММ 77",
+      "serviceId": 13,
+      "mechanicId": 5,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 14,
+      "appointmentId": 14,
+      "datetime": "2026-02-23T10:50:00.000Z",
+      "licensePlate": "Н 414 НН 77",
+      "serviceId": 18,
+      "mechanicId": 4,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 15,
+      "appointmentId": 15,
+      "datetime": "2026-02-24T15:10:00.000Z",
+      "licensePlate": "О 515 ОО 77",
+      "serviceId": 19,
+      "mechanicId": 5,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 16,
+      "appointmentId": 16,
+      "datetime": "2026-02-25T09:00:00.000Z",
+      "licensePlate": "П 616 ПП 77",
+      "serviceId": 20,
+      "mechanicId": 2,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 17,
+      "appointmentId": 17,
+      "datetime": "2026-02-26T11:30:00.000Z",
+      "licensePlate": "Р 717 РР 77",
+      "serviceId": 22,
+      "mechanicId": 6,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 18,
+      "appointmentId": 18,
+      "datetime": "2026-02-27T14:00:00.000Z",
+      "licensePlate": "С 818 СС 23",
+      "serviceId": 25,
+      "mechanicId": 3,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 19,
+      "appointmentId": 19,
+      "datetime": "2026-02-28T08:40:00.000Z",
+      "licensePlate": "Т 919 ТТ 77",
+      "serviceId": 21,
+      "mechanicId": 5,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 20,
+      "appointmentId": 20,
+      "datetime": "2026-03-01T10:10:00.000Z",
+      "licensePlate": "У 020 УУ 77",
+      "serviceId": 5,
+      "mechanicId": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 21,
+      "appointmentId": 21,
+      "datetime": "2026-03-05T11:30:00.000Z",
+      "licensePlate": "Ф 121 ФФ 77",
+      "serviceId": 26,
+      "mechanicId": 2,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 22,
+      "appointmentId": 22,
+      "datetime": "2026-03-10T13:00:00.000Z",
+      "licensePlate": "Х 232 ХХ 77",
+      "serviceId": 28,
+      "mechanicId": 4,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 23,
+      "appointmentId": 23,
+      "datetime": "2026-03-15T09:20:00.000Z",
+      "licensePlate": "Ц 323 ЦЦ 54",
+      "serviceId": 29,
+      "mechanicId": 6,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 24,
+      "appointmentId": 24,
+      "datetime": "2026-03-20T14:30:00.000Z",
+      "licensePlate": "Ч 424 ЧЧ 77",
+      "serviceId": 30,
+      "mechanicId": 5,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 25,
+      "appointmentId": 25,
+      "datetime": "2026-03-25T09:00:00.000Z",
+      "licensePlate": "Ш 525 ШШ 77",
+      "serviceId": 24,
+      "mechanicId": 3,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 26,
+      "appointmentId": 26,
+      "datetime": "2026-03-10T08:30:00.000Z",
+      "licensePlate": "Н 131 НН 77",
+      "serviceId": 4,
+      "mechanicId": 4,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 27,
+      "appointmentId": 27,
+      "datetime": "2026-03-11T11:00:00.000Z",
+      "licensePlate": "К 232 КК 77",
+      "serviceId": 7,
+      "mechanicId": 5,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 28,
+      "appointmentId": 28,
+      "datetime": "2026-03-12T13:30:00.000Z",
+      "licensePlate": "Р 333 РР 77",
+      "serviceId": 6,
+      "mechanicId": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 29,
+      "appointmentId": 29,
+      "datetime": "2026-03-13T09:45:00.000Z",
+      "licensePlate": "А 434 АА 77",
+      "serviceId": 9,
+      "mechanicId": 4,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 30,
+      "appointmentId": 30,
+      "datetime": "2026-03-16T08:20:00.000Z",
+      "licensePlate": "Б 535 ББ 77",
+      "serviceId": 1,
+      "mechanicId": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 31,
+      "appointmentId": 31,
+      "datetime": "2026-03-17T11:40:00.000Z",
+      "licensePlate": "Г 636 ГГ 77",
+      "serviceId": 15,
+      "mechanicId": 2,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 32,
+      "appointmentId": 32,
+      "datetime": "2026-03-18T14:10:00.000Z",
+      "licensePlate": "Д 737 ДД 77",
+      "serviceId": 17,
+      "mechanicId": 4,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 33,
+      "appointmentId": 33,
+      "datetime": "2026-03-19T09:30:00.000Z",
+      "licensePlate": "Е 838 ЕЕ 77",
+      "serviceId": 12,
+      "mechanicId": 5,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 34,
+      "appointmentId": 34,
+      "datetime": "2026-03-21T11:50:00.000Z",
+      "licensePlate": "Ж 939 ЖЖ 77",
+      "serviceId": 13,
+      "mechanicId": 5,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 35,
+      "appointmentId": 35,
+      "datetime": "2026-03-22T15:00:00.000Z",
+      "licensePlate": "З 404 ЗЗ 77",
+      "serviceId": 16,
+      "mechanicId": 6,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 36,
+      "appointmentId": 36,
+      "datetime": "2026-03-23T08:40:00.000Z",
+      "licensePlate": "И 141 ИИ 77",
+      "serviceId": 22,
+      "mechanicId": 6,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 37,
+      "appointmentId": 37,
+      "datetime": "2026-03-24T13:30:00.000Z",
+      "licensePlate": "К 242 КК 77",
+      "serviceId": 5,
+      "mechanicId": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 38,
+      "appointmentId": 38,
+      "datetime": "2026-03-26T10:00:00.000Z",
+      "licensePlate": "Л 343 ЛЛ 77",
+      "serviceId": 20,
+      "mechanicId": 2,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 39,
+      "appointmentId": 39,
+      "datetime": "2026-03-27T12:20:00.000Z",
+      "licensePlate": "М 454 ММ 77",
+      "serviceId": 27,
+      "mechanicId": 2,
+      "status": "COMPLETED"
+    },
+    {
+      "id": 40,
+      "appointmentId": 40,
+      "datetime": "2026-03-28T16:10:00.000Z",
+      "licensePlate": "Н 545 НН 77",
+      "serviceId": 29,
+      "mechanicId": 6,
+      "status": "COMPLETED"
     }
   ],
   "notifications": [
+    {
+      "id": 1773765796274,
+      "message": "Запись в расписании удалена",
+      "timestamp": "2026-03-17T16:43:16.274Z"
+    },
+    {
+      "id": 1773765794347,
+      "message": "Запись в расписании удалена",
+      "timestamp": "2026-03-17T16:43:14.347Z"
+    },
+    {
+      "id": 1773765790418,
+      "message": "Новая запись: 17.03.2026, 19:55, клиент рварпвпра, авто —",
+      "timestamp": "2026-03-17T16:43:10.418Z"
+    },
+    {
+      "id": 1773765744786,
+      "message": "Новая запись: 17.03.2026, 19:50, клиент вапапвпав, авто —",
+      "timestamp": "2026-03-17T16:42:24.786Z"
+    },
+    {
+      "id": 1773765157254,
+      "message": "Новая запись: 17.03.2026, 19:40, клиент иван, авто да",
+      "timestamp": "2026-03-17T16:32:37.254Z"
+    },
     {
       "id": 1773435910286,
       "message": "Запись в расписании удалена",

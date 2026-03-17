@@ -16,7 +16,12 @@
         </label>
         <label class="field">
           <span>ID работника</span>
-          <input v-model="employeeId" required />
+          <input
+            :value="employeeId"
+            required
+            @input="onEmployeeIdInput($event)"
+            @keydown="onEmployeeIdKeydown"
+          />
         </label>
         <label class="field">
           <span>Пароль</span>
@@ -65,6 +70,31 @@ export default {
       this.captchaA = Math.floor(Math.random() * 9) + 1;
       this.captchaB = Math.floor(Math.random() * 9) + 1;
       this.captchaInput = "";
+    },
+    onEmployeeIdKeydown(e) {
+      const controlKeys = [
+        "Backspace",
+        "Delete",
+        "ArrowLeft",
+        "ArrowRight",
+        "ArrowUp",
+        "ArrowDown",
+        "Tab",
+        "Enter",
+        "Home",
+        "End",
+      ];
+      if (controlKeys.includes(e.key) || e.ctrlKey || e.metaKey || e.altKey) {
+        return;
+      }
+      const allowed = /^[A-Za-z0-9]$/;
+      if (!allowed.test(e.key)) {
+        e.preventDefault();
+      }
+    },
+    onEmployeeIdInput(e) {
+      const raw = e.target.value || "";
+      this.employeeId = raw.replace(/[^A-Za-z0-9]/g, "");
     },
     async submit() {
       this.error = "";

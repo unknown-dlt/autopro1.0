@@ -250,11 +250,13 @@
           </div>
           <div class="appointment-form-row">
             <label class="appointment-form-label">Комментарий</label>
-            <input
+            <textarea
               v-model="form.comment"
-              class="input appointment-form-input"
+              class="input appointment-form-input appointment-form-textarea"
               placeholder="Примечание к записи"
-            />
+              rows="1"
+              @input="autoResizeComment($event)"
+            ></textarea>
           </div>
           <div class="appointment-form-row appointment-form-submit">
             <button class="primary-btn appointment-form-btn" @click="submitForm">
@@ -609,6 +611,11 @@ export default {
       if (controlKeys.includes(e.key) || e.ctrlKey || e.metaKey || e.altKey) {
         return;
       }
+      const currentDigits = (this.form.phone || "").replace(/\D/g, "");
+      if (currentDigits.length >= 11) {
+        e.preventDefault();
+        return;
+      }
       if (!/[0-9]/.test(e.key)) {
         e.preventDefault();
       }
@@ -753,6 +760,14 @@ export default {
         minute: "2-digit",
       });
     },
+    autoResizeComment(e) {
+      const el = e.target;
+      if (!el) return;
+      el.style.height = "auto";
+      const maxHeight = 180; // немного больше, но всё ещё внутри блока
+      const newHeight = Math.min(el.scrollHeight, maxHeight);
+      el.style.height = newHeight + "px";
+    },
     onPhoneInput(e) {
       this.form.phone = formatPhone(e.target.value);
     },
@@ -804,13 +819,20 @@ export default {
         serviceId: this.form.serviceId || null,
         mechanicId: this.form.mechanicId || null,
       };
-      if (isEdit) {
-        await axios.put(`/api/appointments/${this.editingId}`, payload);
-      } else {
-        await axios.post("/api/appointments", payload);
+      try {
+        if (isEdit) {
+          await axios.put(`/api/appointments/${this.editingId}`, payload);
+        } else {
+          await axios.post("/api/appointments", payload);
+        }
+        await this.loadAppointments();
+        this.resetForm();
+      } catch (e) {
+        const message =
+          (e.response && e.response.data && e.response.data.error) ||
+          "Не удалось сохранить запись. Попробуйте ещё раз.";
+        window.alert(message);
       }
-      await this.loadAppointments();
-      this.resetForm();
     },
     editFromDetails() {
       if (!this.currentAppointment) return;
@@ -887,4 +909,12 @@ export default {
   },
 };
 </script>
+<style scoped>
+.appointment-form-textarea {
+  resize: none;
+  min-height: 40px;
+  max-height: 180px;
+  line-height: 1.4;
+}
+</style>
 
